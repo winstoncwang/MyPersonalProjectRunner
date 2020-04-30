@@ -19,5 +19,8 @@
 	"bugs": {
 		"url": "https://github.com/winstoncwang/MyPersonalProjectRunner/issues"
 	},
-	"homepage": "https://github.com/winstoncwang/MyPersonalProjectRunner#readme"
+	"homepage": "https://github.com/winstoncwang/MyPersonalProjectRunner#readme",
+	"dependencies": {
+		"chokidar": "^3.4.0"
+	}
 }
