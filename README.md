@@ -23,3 +23,8 @@ initiating all files and npm setting(package.json).
 -------------
 
 bug fix with the hashbang line at the top of index.js file to initiate execution path for npm link
+-------------
+
+V 0.11
+
+    install chokidar and apply debounce function to remove multiple execution of add file trigger when code initially runs.
