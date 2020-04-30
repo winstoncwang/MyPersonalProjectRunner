@@ -1,0 +1,23 @@
+{
+	"name": "MyPersonalProjectRunner",
+	"version": "1.0.0",
+	"description": "A custom project runner used to detect any changes to JS script and execute the file for rapid change and development purposes.",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/winstoncwang/MyPersonalProjectRunner.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bin": {
+		"watchit": "index.js"
+	},
+	"bugs": {
+		"url": "https://github.com/winstoncwang/MyPersonalProjectRunner/issues"
+	},
+	"homepage": "https://github.com/winstoncwang/MyPersonalProjectRunner#readme"
+}
