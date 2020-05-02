@@ -5,6 +5,8 @@ const debounce = require('lodash.debounce');
 const program = require('caporal'); //caporal recommends this naming convention.
 //Caporal imports a program rather than a class or a object of methods.
 
+const { spawn } = require('child_process');
+
 //program
 program
 	.version('0.1')
@@ -20,7 +22,8 @@ program
 
 		const start = debounce(() => {
 			console.log('-----USER PROGRAM STARTED!!-----');
-		}, 300);
+			spawn('node', [ name ], { stdio: 'inherit' });
+		}, 600);
 
 		chokidar
 			.watch('.') //{ ignoreInitial: true }

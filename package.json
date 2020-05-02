@@ -14,7 +14,7 @@
 	"author": "",
 	"license": "ISC",
 	"bin": {
-		"watchit": "index.js"
+		"nodemon": "index.js"
 	},
 	"bugs": {
 		"url": "https://github.com/winstoncwang/MyPersonalProjectRunner/issues"
