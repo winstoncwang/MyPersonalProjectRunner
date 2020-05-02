@@ -28,3 +28,13 @@ bug fix with the hashbang line at the top of index.js file to initiate execution
 V 0.11
 
     install chokidar and apply debounce function to remove multiple execution of add file trigger when code initially runs.
+-------------
+
+V 0.12
+
+    additional debounce method added, debounce standard and promise version.
+-------------
+
+V 0.13
+
+    lodash debounce added to user start program notification line.
