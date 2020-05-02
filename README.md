@@ -38,3 +38,8 @@ V 0.12
 V 0.13
 
     lodash debounce added to user start program notification line.
+-------------
+
+V 0.14
+
+    caporal implemented with basic features.
