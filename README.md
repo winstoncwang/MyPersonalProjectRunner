@@ -43,3 +43,8 @@ V 0.13
 V 0.14
 
     caporal implemented with basic features.
+-------------
+
+V 0.15
+
+    use fsPromise.access to check file existence and throw error is necessary.
