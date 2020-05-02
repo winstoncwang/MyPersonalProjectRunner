@@ -4,8 +4,13 @@ A custom project runner used to detect any changes to JS script and execute the 
 Challenges ahead are:
 
 1.Need to detect when a file changes
+
 2.Additional help made available to other users to CLI tool to clarify some features
+
 3.Execution of multiple js code in node, or run code within our code. 
+
+
+
 
 Solution:
 
@@ -23,6 +28,7 @@ initiating all files and npm setting(package.json).
 -------------
 
 bug fix with the hashbang line at the top of index.js file to initiate execution path for npm link
+
 -------------
 
 V 0.11
@@ -53,3 +59,8 @@ V 0.15
 V 0.16
 
     implementing child_processes.spawn to run another version of js code inside our index.js code.
+-------------
+
+V 0.17
+
+    kill child_process when a new child_process is running by add/change.
