@@ -20,9 +20,13 @@ program
 			throw new Error(`file not found: ${name}`);
 		}
 
+		let child_proc;
 		const start = debounce(() => {
+			if (child_proc) {
+				child_proc.kill();
+			}
 			console.log('-----USER PROGRAM STARTED!!-----');
-			spawn('node', [ name ], { stdio: 'inherit' });
+			child_proc = spawn('node', [ name ], { stdio: 'inherit' });
 		}, 600);
 
 		chokidar
