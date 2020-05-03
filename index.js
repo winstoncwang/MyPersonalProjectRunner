@@ -1,5 +1,6 @@
 #! /usr/bin/env node
 const fs = require('fs');
+const chalk = require('chalk');
 const chokidar = require('chokidar');
 const debounce = require('lodash.debounce');
 const program = require('caporal'); //caporal recommends this naming convention.
@@ -25,9 +26,9 @@ program
 			if (child_proc) {
 				child_proc.kill();
 			}
-			console.log('-----USER PROGRAM STARTED!!-----');
+			console.log(chalk.green('-----USER PROGRAM STARTED!!-----'));
 			child_proc = spawn('node', [ name ], { stdio: 'inherit' });
-		}, 600);
+		}, 300);
 
 		chokidar
 			.watch('.') //{ ignoreInitial: true }
