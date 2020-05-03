@@ -64,3 +64,8 @@ V 0.16
 V 0.17
 
     kill child_process when a new child_process is running by add/change.
+-------------
+
+V 0.18
+
+    using chalk to color command tool.
